@@ -9,7 +9,7 @@ body {
 	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
 	left: -38px; /* Establecemos la barra en la izquierda */
 	top: 150px; /* Bajamos la barra 200px de arriba a abajo */
-	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+	z-index: 100; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
 } 
 .social ul {
 		list-style: none;
@@ -96,8 +96,8 @@ h6 {
 .lol{
     
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: ;
+    height: 100%;
     
 }
 
@@ -185,9 +185,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 .navbar-default {
-    height: 80px;
+    height: 10%;
     border-color: transparent;
-    background-color: #103254;
+    background-color: #fff;
+    border-bottom-color: #103254;
 }
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
@@ -205,42 +206,45 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-toggle {
     border-color: white;
-    background-color: #103254;
+    background-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #103254;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #103254;
+    background-color: white;
 }
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
-    background-color: #103254;
+    color: #103254;
+    background-color: white;
     z-index: 100;
+    border-bottom-color: #103254;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
     color: white;
     background-color: #2995be;
+    border-bottom-color: #103254;
 }
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
     background-color: #2995be;
+    border-bottom-color: #103254;
 }
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #2995be;
+    border-bottom-color: #103254;
 }
-.lol{
-    width: 100px;
+.lol{    
     position: absolute;
     top: 0%;
     left: 8%;
@@ -268,7 +272,7 @@ fieldset[disabled] .btn-xl.active {
     transform: translateX(-50%) translateY(-50%);
      z-index: -1;}
 
-@media(min-width:768px) {
+@media(min-width:1168px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -287,7 +291,8 @@ fieldset[disabled] .btn-xl.active {
     }
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #103254;
+        background-color: white;
+        border-bottom-color: #103254;
     }
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
@@ -302,13 +307,16 @@ header {
     background-size: cover;
     -o-background-size: cover;
     z-index: -30;
+     height: 90vh;
+    
 }
 .header1{
     background-image: url(../img/videoImg.jpg);
 }
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 50px;
+   
     
 }
 header .intro-text .intro-lead-in {
@@ -631,8 +639,8 @@ section h3.section-subheading {
     margin-top: 0;
 }
 section#contact {
-    background-color: #222;
-    background-image: url(../img/Representante2.jpg);
+    background-color: #fff;
+    background-image: url();
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -808,4 +816,69 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #103254;
 }
+.bune {
+    color: #004370
+}
+.sitiosinteres{
+   text-align: center
+  
+}
+.evento{    
+    width: 100%;
+    margin: auto;
+   border: solid 2px black;
+    padding: 10px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+}
+.evento input, textarea{
+    width: 100%;
+    margin: auto;
+    padding: 7px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+textarea{
+    min-height: 100px;
+    max-height: 120px;
+    max-width: 100%;
+}
+#botoneven{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background: #31384A;
+    color: #fff;
+    padding: 10px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+#mapa{
+    height: 650px;
+    margin-top: 70px;
+}
 
+@media(max-width:700px){
+    .evento {
+	width: 100%;
+}
+    .evento input, textarea{
+    width: 100%;	
+}
+    .textevento{
+    font-size: 10px;
+}
+    #mapa{
+    height: 350px;
+    margin-top: 30px;
+}
+
+}
