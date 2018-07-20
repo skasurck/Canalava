@@ -883,8 +883,12 @@ textarea{
 
 }
 .eventoss{
-    width: 60%;
+    width: 40%;
     text-align: center;
     margin: auto;
     padding: auto;
+    border-radius: 10%;
+}
+.eventoss:hover{
+    background: rgba(16,50,84,0.5)
 }
