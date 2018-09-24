@@ -11,12 +11,12 @@
 
   gtag('config', 'UA-120752635-1');
 </script>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
   <meta charset="UTF-8">
   <title>Inicio</title>  
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
-<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
 <link rel='stylesheet prefetch' href='https://startbootstrap.com/templates/agency/font-awesome-4.1.0/css/font-awesome.min.css'>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.css">
@@ -30,8 +30,8 @@
   <body id="page-top" class="index" data-pinterest-extension-installed="cr1.3.4">
 <!-- Header -->
 <header class="header1">
-    <!-- Navigation -->
-      <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+    !-- Navigation -->
+     <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
         <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header page-scroll">
@@ -41,36 +41,41 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#page-top"><img src="img/logocanalava.svg" alt="" class="img-responsive lol"></a>
+      <a href="#page-top"><img src="img/logocanalava.svg" alt="" class="lol"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-     <ul class="nav navbar-nav navbar-right canalava2">
+    <ul class="nav navbar-nav navbar-right canalava2">
                     <li class="hidden active">
                         <a href="#page-top"></a>
                     </li>
                     <li class="">
                         <a class="page-scroll" href="index.html">Inicio</a>
                     </li>
-                    <li class="">
-                        <a class="page-scroll" href="Beneficios.html">Beneficios</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="cusos.html">Cursos</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="Eventos.html">Eventos</a>
-                    </li>
+                    <li class="dropdown">
+        <a class="dropdown-toggle page-scroll" data-toggle="dropdown" href="#">Beneficios
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                     <li><a class="page-scroll" href="Beneficios.html">Beneficios</a></li>
+                      <li><a class="page-scroll" href="cusos.html">Cursos</a></li>
+                      <li><a class="page-scroll" href="Eventos.html">Eventos</a></li>
+                    </ul>
+                  </li>
                      <li class="">
                         <a class="page-scroll" href="Revista.html">Revista</a>
                     </li>                   
                     <li class="">
                         <a class="page-scroll" href="Quienes_somos.html">¿QUIÉNES SOMOS?</a>
                     </li>
-                    <li class="">
-                        <a class="page-scroll" href="Directorio.html">DIRECTORIO</a>
-                    </li>
+                    <li class="dropdown">
+        <a class="dropdown-toggle page-scroll" data-toggle="dropdown" href="Directorio.html">dIRECTORIO
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                     <li><a class="page-scroll" href="OCCIDENTE.html">dIRECTORIO</a></li>
+                      <li><a class="page-scroll" href="OCCIDENTE.html">Delegación OCCIDente</a></li>
+                    </ul>
+                  </li>
                     <li class="">
                         <a class="page-scroll" href="Afiliate.html">Afiliate</a>
                     </li>
@@ -114,8 +119,8 @@
              </div>
              <div class="col-12 col-md-4">
                   
-                  <a href="Blog/ExpoPymes2018.html"><img src="img/evento3.jpg" alt="" class="img-responsive eventoss"></a>
-                  <h3 style="text-align: center;">EXPO PYMES</h3>
+                  <a href="Blog/DESAYUNO_OCCIDENTE.html"><img src="img/DESAYUNO_DELEGACION_CHICO.jpg" alt="" class="img-responsive eventoss"></a>
+                  <h3 style="text-align: center;">Perspectivas a Futuro de la industria de lavanderías(DESAYUNO)</h3>
              </div>
              
              
@@ -220,6 +225,7 @@
                             <div class="clearfix"></div>
                            
                         </div>
+                        <div class="g-recaptcha" data-sitekey="6LfMInEUAAAAAOW1Lct3ZOvDts2tcDPsHgzUzJQG"></div>
                     </form>
                 </div>
             </div>
@@ -249,9 +255,9 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Politicas de Privacidad</a>
+                        <li><a href="AVISO-DE-PRIVACIDAD.html">Aviso de Privacidad</a>
                         </li>
-                        <li><a href="#">Terminos de Uso</a>
+                        <li><a href="Terminos-y-condiciones.html">Terminos y Condiciones</a>
                         </li>
                     </ul>
                 </div>
@@ -260,6 +266,7 @@
     </footer>
 
     <!--Modals -->
+<!--
     <div class="modal fade bd-example-modal-lg" id="modalcana" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -280,6 +287,7 @@
     </div>
   </div>
 </div>
+-->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
    
@@ -306,9 +314,9 @@
 
 
 
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
-<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
 
   
 
