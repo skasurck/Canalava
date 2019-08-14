@@ -5,9 +5,13 @@
 
 get_header(); ?>
 
+    <!--imagen incio en celulares-->
+    <div class="container-fluid d-flex justify-content-center soloCelular">
+    <img src="<?php bloginfo('template_url'); ?>/img/imgsmall.png" class="img-fluid soloCelular" alt="">
+    </div>
     <!-- inicio slider -->
     <div class="container-fluid contenedor-slider d-flex justify-content-center">
-        <br><br><br><br>
+        <br><br><br><br>        
         <div id="carouselExampleIndicators" class="carousel slide slider-home " data-ride="carousel" data-interval="8000" data-pause="hover">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
