@@ -18,54 +18,28 @@ get_header(); ?>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                             
             </ol>
              <div class="carousel-inner">
                 <div class="carousel-item active">
-                <a href="https://canalava.org.mx/category/blog/"><img class="d-block w-100 img-slider-home" src="<?php bloginfo('template_url'); ?>/img/slider/2.png" alt="First slide"></a>
-                    
-                        
-                 
+               <img class="d-block w-100 img-slider-home" src="<?php bloginfo('template_url'); ?>/img/slider/2.png" alt="First slide">
+    
                 </div>
-               <div class="carousel-item">
-               <a href="https://canalava.org.mx/cursos/"><img class="d-block w-100 img-slider-home" src="<?php bloginfo('template_url'); ?>/img/slider/agosto-2.png" alt="Second slide"></a>
+            <div class="carousel-item">
+               <a href="https://canalava.org.mx/cursos/"><img class="d-block w-100 img-slider-home" src="<?php bloginfo('template_url'); ?>/img/slider/ComoEmprenderCDMX.png" alt="Second slide"></a>
                 </div> 
-             <!--
+              
                 <div class="carousel-item">
-                    
+                <a href="https://canalava.org.mx/cursos/"><img class="d-block w-100 img-slider-home" src="<?php bloginfo('template_url'); ?>/img/slider/FondoEmprendedor.png" alt="Third slide"></a>
+                 </div>
 
-                     <div class="carousel-caption d-none d-md-block texto-slider-3 ml-auto">
-                     
-                        <h1>Último Curso del 2018</h1>
-                        <h2>Introducción al Servicio de Lavandería</h2><hr>
-                        <h3>26-29 NOVIEMBRE 2018</h3>
-                        <p class="text-center"><i class="fas fa-map-marker-alt"></i> Río Danubio 38 Col. Cuauhtémoc, Del. Cuauteémoc, CDMX CP. 06500 </p>
-                        <hr style="background-color: white">
-                        <h5 >Contactanos para mas informes</h5>
-                        <p class="text-muted"></p>
-                         <form name="formcurso"  method="POST" action="php/form-rapido.php">
-                          <div class="form-group">
-                            <label for="formGroupExampleInput">Nombre</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="nombre" name="nombre">
-                          </div>
-                          <div class="form-group">
-                            <label for="formGroupExampleInput2">Correo</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="correo" name="email">
-                          </div>
-                           <button type="submit" class="btn btn-info">Enviar Mensaje</button> <span>&nbsp O &nbsp</span> <a href="tel:55146101 " class="btn btn-info  active btn-slider" role="button" aria-pressed="true">llamanos </a>
-                        </form>
-                       
-                        
-                      
-                     </div>
-
-                </div>-->
                 <div class="carousel-item">
-                    <img class="d-block w-100 img-slider-home" src="<?php bloginfo('template_url'); ?>/img/slider/sliderGDF.png" 						alt="Third slide">
+                    <img class="d-block w-100 img-slider-home" src="<?php bloginfo('template_url'); ?>/img/slider/sliderGDF.png" alt="fourth slide">
 
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 img-slider-home" src="<?php bloginfo('template_url'); ?>/img/slider/slider-TBuscamos.png" alt="fourth slide">
+                    <img class="d-block w-100 img-slider-home" src="<?php bloginfo('template_url'); ?>/img/slider/slider-TBuscamos.png" alt="fifth slide">
 
                 </div>
                 
@@ -95,29 +69,26 @@ get_header(); ?>
 <div class="card-deck  scrollflow -slide-top -opacity"><!-- fin slider-->
 <div class="card">
 
-<a href="https://canalava.org.mx/category/blog/"><img class="card-img-top img-responsive" src="https://canalava.org.mx/wp-content/themes/canalavamx/img/213.png" alt="Card image cap"></a>
+<a href="https://canalava.org.mx/category/blog/"><img class="card-img-top img-responsive" src="https://canalava.org.mx/wp-content/themes/canalavamx/img/bannerApp.png" alt="Card image cap"></a>
 
 <hr>
 
 <div class="card-body">
-<h5 class="card-title"><a href="https://canalava.org.mx/2019/04/29/beneficios-afiliacion/">Beneficios para nuevas afiliaciones</a></h5>
-<p class="card-text">Beneficios al afiliarte a CANALAVA.</p>
+<h5 class="card-title">
+</div>
+<div class="card-footer"><small class="text-muted">Ultima Actualización Agosto 2019</small>
 
 </div>
-<div class="card-footer"><small class="text-muted">Ultima Actualización 28 de Mayo 2019</small>
-
 </div>
-</div>
-<div class="card"><img class="card-img-top" src="https://canalava.org.mx/wp-content/themes/canalavamx/img/2.png" alt="Card image cap">
+<div class="card"><img class="card-img-top" src="https://canalava.org.mx/wp-content/themes/canalavamx/img/bannerApp2.png" alt="Card image cap">
 
 <hr>
 
 <div class="card-body">
-<h5 class="card-title"><a href="https://canalava.org.mx/2019/04/29/beneficios-renovacion-2019/">Beneficios de renovación anticipada</a></h5>
-<p class="card-text">Descubre los beneficios al renovar tu afiliación a CANALAVA</p>
+
 
 </div>
-<div class="card-footer"><small class="text-muted">Ultima Actualización 28 de Mayo 2019</small></div>
+<div class="card-footer"><small class="text-muted">Ultima Actualización Agosto 2019</small></div>
 </div>
 </div>
 </div>
